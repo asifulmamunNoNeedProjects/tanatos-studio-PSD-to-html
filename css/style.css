@@ -1,0 +1,220 @@
+/* global css */
+.rong{
+	color: #F7600E;
+	text-transform: uppercase;
+}
+.footer a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: visible;
+	color: #0000ff;
+	transition: 0.5s;
+}
+/* banner */
+.banner {
+    background: url(../images/header-bg.png) no-repeat;
+    background-size: cover;
+    padding: 15px 0px 105px 0px;
+}
+.wdsign h1{
+	font-size: 40px;
+}
+.wdsign p{
+	font-size: 25px;
+	line-height: 30px;
+}
+.wdsign{
+	color: #fff;
+    padding: 60px 0px;
+}
+
+.logo{
+    padding: 85px 0px 0px 125px;
+}
+/* arrow down on banner section */
+.fa-gol{
+	position: relative;
+}
+.fa-gol:hover{
+	color: #F7600E;
+	transition: 0.5s;
+}
+.fa-chevron-down {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    bottom: -70px;
+}
+.fa-chevron-down:hover{
+	color: #F7600E;
+    border: 2px solid #F7600E;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-dwn{
+    padding: 5px 28px;
+    font-size: 16px;
+    background-color: #F7600E;
+    border: none;
+    margin-bottom: 40px;
+}
+
+/* work and profile css*/
+.work {
+    margin: 80px 0px;
+}
+.btn-smore {
+    margin: 107px 0px 0px 0px;
+    color: #444;
+    padding: 8px 30px;
+    font-size: 16px;
+}
+.btn-smore:hover{
+    background-color: #F7600E;
+    border: none;
+    color: #fff;
+    transition: 0.5s;
+}
+.profile .col-md-3{
+	font-size: 12px;
+}
+.workpr {
+    margin: 45px 0px;
+}
+.workpr p,.sh p{
+    line-height: 26px;
+    color: #333;
+}
+.profile{
+	padding: 10px 0px;
+}
+.profile img:hover{
+	border-bottom: 3px solid #F7600E;
+	-webkit-transform: scale(1,1.09);
+	-moz-transform: scale(1,1.09);
+	-o-transform: scale(1,1.09);
+	transform: scale(1,1.09);
+	transition: 0.5s;
+}
+/* contact */
+.contact {
+    background: url(../images/contact.png) no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+    margin: 0;
+}
+.sh{
+	color: #fff;
+	margin-bottom: 30px;
+}
+.sh p{
+	color: #fff;
+	font-size: 12px;
+}
+.text {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.textarea {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 23px 0px;
+}
+.submit {
+    color: #fff;
+    background-color: #F7600E;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 6px 21px;
+    margin: 20px 0px 70px 0px;
+}
+.submit:hover{
+    color: #F7600E;
+    background-color: #fff;
+    transition: 0.5s;
+ }
+/* footer section */
+.footer,.footer a{
+	background-color: #3B434C;
+	color: #A5A8AC;
+	padding: 60px 0px;
+}
+
+
+
+/* meadia quwri on phone tab notepad  */
+@media screen and (max-width: 990px){
+.logo{
+    display: block;
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+.banner {
+    padding: 40px 0px;
+}
+.wdsign {
+    padding: 25px 0px;
+}
+.wdsign h1 {
+    font-size: 25px;
+}
+.wdsign p {
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 4px;
+}
+.fa-chevron-down {
+	display: none;
+}
+.h1, h1 {
+    font-size: 25px;
+}
+.work {
+    margin: 0px 0px;
+}
+.workpr p{
+    line-height: 20px;
+    color: #333;
+    font-size: 12px;
+}
+.work img {
+    display: block;
+    margin: 15px auto;
+}
+.btn-smore {
+    margin: 40px 0px 0px 0px;
+}
+.workpr {
+    margin: 25px 0px;
+}
+.profile p{
+    /* margin: 0 0 0 0px; */
+    display: block;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+.text {
+    margin: 6px 0px;
+}
+.textarea {
+    margin: 15px 0px;
+}
+.submit {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 20px;
+}
+.footer,.footer a{
+    padding: 16px 0px;
+}
+
+/* media queri phone off*/
+}
